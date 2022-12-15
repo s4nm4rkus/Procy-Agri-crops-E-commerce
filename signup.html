@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- CSS link -->
+  <link rel="stylesheet" href="css/signup.css">
+  <!-- font-awesome -->
+
+  <script src="https://kit.fontawesome.com/753458f954.js" crossorigin="anonymous"></script>
+</head>
+
+
+
+<body>
+  <img class="bg-login" src="images/homepage2.png" alt="homepage's">
+  <div class="container">
+    <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
+    <h2>Welcome to prosi agri-crops!</h2>
+    <div class="container-message">
+      <p class="p2">Sign Up.</h4>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-6 left-col">
+        <p class="top-message">Full Name</p>
+        <input type="text" id="fullname" name="fullname" placeholder="Please Enter your Full Name (First Name, Last Name)" required>
+        <p class="top-message">Username</p>
+        <input type="text" id="username" name="username" placeholder="Enter Username" required>
+        <p class="top-message">Phone Number or your Email</p>
+        <input type="email" id="email" name="email" placeholder="Please Enter your Email or Phone Number" required>
+        <p class="top-message">Password</p>
+        <input type="password" id="password" name="password" placeholder="Minimum of 6 characters with number or letter" required>
+
+
+
+        <div class="row">
+          <div class="col-md-6 col-lg-6 left-col">
+          </div>
+          <div class="col-md-6 col-lg-6">
+
+          </div>
+
+
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-6 left-col">
+        <div class="row">
+          <div class="col-md-6 col-lg-6 left-col">
+            <p class="p-date">Birthday</p>
+            <input type="date" id="date" name="date" placeholder="" required>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <label for="gender">Gender:</label>
+            <select name="Gender" id="Gender">
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+
+        <input type="submit" id="signup" name="signup_submit" value="Sign Up" />
+
+        <label>
+          <input type="checkbox" id="check" name="remember">I agree to the Terms of Use and Provacy Policy.
+        </label>
+        <p class="p-login">or log in with</p>
+        <a href='https://www.facebook.com/'> <button type="button" class="btn btn-outline-light btn-lg fb-button"><i class="fa-brands fa-facebook"></i>Facebook</button></a>
+        <a href='https://accounts.google.com/ServiceLogin'> <button type="button" class="btn btn-outline-light btn-lg google-button"><i class="fa-brands fa-google-plus-g"></i>Google</button></a>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+<!-- firebase database-->
+<script type="module">
+  import {
+    initializeApp
+  } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+  import {
+    getDatabase
+  } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js";
+  import {
+    getAuth,
+    createUserWithEmailAndPassword
+  } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyCj89ypt5RHSIrjB724K5reOWup_hBaRF0",
+    authDomain: "loginpage-d1e76.firebaseapp.com",
+    databaseURL: "https://loginpage-d1e76-default-rtdb.firebaseio.com",
+    projectId: "loginpage-d1e76",
+    storageBucket: "loginpage-d1e76.appspot.com",
+    messagingSenderId: "513434913465",
+    appId: "1:513434913465:web:583f6b2029a94a28f82968"
+  };
+  const app = initializeApp(firebaseConfig);
+  const database = getDatabase(app);
+  const auth = getAuth();
+  signup.addEventListener('click', (e) => {
+
+    var fullname = DOCTYPE.getElementsById('fullname') .value;
+    var username = document.getElementsById('username').value;
+    var email = document.getElementsById('email').value;
+    var password = document.getElementsById('password').value;
+
+    createUserWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        // Signed in
+        const user = userCredential.user;
+        alert('error created');
+        // ...
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+
+        alert(errormessage);
+        // ..
+      });
+
+  });
+</script>
+</html>

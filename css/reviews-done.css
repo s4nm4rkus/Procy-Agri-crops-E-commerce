@@ -1,0 +1,117 @@
+
+body{
+  margin: 0;
+  padding: 0;
+}
+  .container-main {
+    background-color: white;
+    height: 300px;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 200px;
+    width: 40%;
+    position: absolute;
+    top: -5%;
+    left: 17%;
+    border-radius: 4px;
+  }
+  .web {
+    width: 1429px;
+    filter: blur(3px);
+  }
+.check-mark{
+  width: 100px;
+  padding-top: 30px;
+}
+.review-text{
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #00B106;
+}
+.button-sub {
+  background-color: #00B106;
+  width: 50%;
+  padding: 10px;
+  border-color: #00B106;
+  border-radius: 4px;
+  margin-top: 20px;
+  opacity: 0.85;
+  display: inline-block;
+  line-height: 20px;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.button-sub :hover {
+  background-color: #00CC07;
+  color: white;
+}
+
+
+#footer{
+  background-color:  #F9F9F9;
+}
+.footer-row{
+  position: absolute;
+  margin: 100px 400px 100px 450px;
+}
+.footer-logo{
+  opacity: 50%;
+  margin: 0;
+  height: 100px;
+}
+.footer-col{
+  margin: 0;
+}
+.footer-bg{
+  height: 300px;
+  width: 1429px;
+}
+.footer-details{
+  font-weight: bold;
+  opacity: 50%;
+  padding-left: 13px;
+  color: #00B106;
+}
+.footer-details-about{
+  text-transform: uppercase;
+  font-family: "dubai";
+  font-weight: bold;
+  font-size: 1rem;
+  color: #989898;
+  margin: 20px 0 0 0;
+}
+.footer-details-about2{
+  color: #989898;
+  font-size: 0.7rem;
+  text-align: left;
+  margin:0;
+}
+.follow-us{
+  color: #989898;
+  font-size: 20px;
+}
+.follow-icons{
+  margin: 10px 20px 0 0;
+}
+.fa-instagram{
+  margin: 5px 0 0 0;
+}
+
+.footer-copyright{
+  padding: auto;
+  width: 1390px;
+  border: 1px solid;
+  border-color: #989898;
+}
+.hr-footer{
+  margin: 260px 0;
+  margin-left: 5px;
+  padding: 0;
+  position: absolute;
+}

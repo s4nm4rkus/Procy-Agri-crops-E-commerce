@@ -1,0 +1,297 @@
+body {
+  padding: 0;
+  margin: 0;
+
+}
+#product-review{
+
+}
+.container-main {
+  background-color: #F9F9F9;
+  height: 550px;
+  text-align: center;
+  margin-top: 80px;
+  width: 67%;
+  position: absolute;
+  top: -5%;
+  left: 17%;
+}
+
+.fa-solid {
+  margin-top: 30px;
+  margin-right: 150px;
+  font-size: 20px;
+  color: black;
+}
+
+.bg-login {
+  width: 1429px;
+  filter: blur(3px);
+}
+
+.p-con {
+  font-size: 12px;
+  text-align: justify;
+  margin-top: 32px;
+  margin-right: 1550px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  width: 1000px;
+}
+
+.question-mark {
+  margin-right: 150px;
+  width: 15px;
+  margin-top: 33px;
+}
+
+.container-arrow {
+  width: 50px;
+  padding-left: 30px;
+}
+
+.container-mark {
+  width: 50px;
+  padding-left: 35px;
+}
+
+.container-p {
+  width: 1000px;
+  padding-left: 5px;
+}
+
+.container-top {
+  display: flex;
+}
+
+.container-delivery {
+  background-color: #F1F1F1;
+  width: 400px;
+  margin-right: 10px;
+  height: 150px;
+}
+
+.container-chat {
+  background-color: #F1F1F1;
+  width: 400px;
+  height: 150px;
+}
+
+.container-boxes {
+  display: flex;
+  padding-left: 70px;
+  padding-right: 30px;
+}
+
+.container-boxes2 {
+  display: flex;
+  padding-left: 70px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+.container-product {
+  background-color: #F1F1F1;
+  width: 400px;
+  margin-right: 10px;
+  height: 150px;
+}
+
+.container-comments {
+  background-color: #CCFEC2;
+  width: 400px;
+  margin-right: 10px;
+  height: 150px;
+}
+
+.container-green {
+  width: 400px;
+  height: 30px;
+  background-color: #00B106;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.container-star {
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.star-widget input {
+  display: none;
+
+}
+.star-widget2 input {
+  display: none;
+
+}
+.star-widget3 input {
+  display: none;
+
+}
+
+.fa-star {
+  font-size: 20px;
+  color: #444;
+  padding: 5px;
+  transition: all 0.2s ease;
+  padding-top: 20px;
+  padding-right: 10px;
+
+}
+
+.fa-star:hover {
+  color: #00B106;
+
+}
+
+.star-widget {
+  width: 400px;
+  transform: rotateY(180deg);
+}
+.star-widget2 {
+  width: 400px;
+  transform: rotateY(180deg);
+}
+.star-widget3 {
+  width: 400px;
+  transform: rotateY(180deg);
+}
+input:checked ~ label{
+  color: #00B106;
+  cursor: pointer;
+}
+input :checked ~ form{
+  display: block;
+}
+
+.container-textarea {
+  font-size: 15px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  padding-top: 12px;
+  padding-left: 17px;
+}
+
+.button-sub {
+  background-color: #00B106;
+  width: 30%;
+  padding: 10px;
+  border-color: #00B106;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-right: 30px;
+  opacity: 0.85;
+  display: inline-block;
+  line-height: 20px;
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.button-sub :hover {
+  background-color: #00CC07;
+  color: white;
+}
+.container-bottom{
+  text-align: center;
+  display: flex;
+}
+form header{
+text-align: center;
+  width: 400px;
+}
+#rate-5:checked ~ form header :before{
+  content: "jennel";
+}
+.bg-navbar{
+  width: 1400px;
+  height: 60px;
+  padding-right: 443px;
+}
+
+
+
+
+
+
+
+#footer {
+  background-color: #F9F9F9;
+}
+
+.footer-row {
+  position: absolute;
+  margin: 100px 400px 100px 450px;
+}
+
+.footer-logo {
+  opacity: 50%;
+  margin: 0;
+  height: 100px;
+}
+
+.footer-col {
+  margin: 0;
+}
+
+.footer-bg {
+  height: 300px;
+  width: 1428px;
+}
+
+.footer-details {
+  font-weight: bold;
+  opacity: 50%;
+  padding-left: 13px;
+  color: #00B106;
+}
+
+.footer-details-about {
+  text-transform: uppercase;
+  font-family: "dubai";
+  font-weight: bold;
+  font-size: 1rem;
+  color: #989898;
+  margin: 20px 0 0 0;
+}
+
+.footer-details-about2 {
+  color: #989898;
+  font-size: 0.7rem;
+  text-align: left;
+  margin: 0;
+}
+
+.follow-us {
+  color: #989898;
+  font-size: 20px;
+}
+
+.follow-icons {
+  margin: 10px 20px 0 0;
+}
+
+.fa-instagram {
+  margin: 5px 0 0 0;
+}
+
+.footer-copyright {
+  padding: auto;
+  width: 1390px;
+  border: 1px solid;
+  border-color: #989898;
+}
+
+.hr-footer {
+  margin: 260px 0;
+  margin-left: 5px;
+  padding: 0;
+  position: absolute;
+}

@@ -1,0 +1,237 @@
+#title {
+  background-color: #F9F9F9;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #F9F9F9
+}
+.container{
+  background-color: white;
+  height: 520px;
+  text-align: center;
+  margin-top: 100px;
+  width: 80%;
+    position: absolute;
+    top: -5%;
+    left: 10%;
+}
+.bg-login{
+  width: 1429px;
+  filter: blur(3px);
+}
+input[type=email], input[type=password] {
+  width: 80%;
+  padding: 12px;
+  border-color: #707070;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-left: 50px;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+}
+input[type=checkbox]{
+  font-size: 17px;
+  margin-top: 7px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.button-1{
+  background-color: #00B106;
+  width: 78%;
+  padding: 10px;
+  border-color: #00B106;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-left: 90px;
+  opacity: 0.85;
+  display: inline-block;
+  line-height: 20px;
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+
+}
+.signup-button:hover{
+  background-color: #00CC07;
+  color: white;
+}
+.top-message{
+  text-align: justify;
+  margin-left: 90px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: 'Montserrat';
+  font-size: 15px;
+}
+.top-message-2{
+  text-align: justify;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-weight: 500;
+}
+.p-password{
+    text-align: justify;
+    margin-left: 60px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    color: #00B106;
+    font-family: 'Montserrat';
+}
+.container-message{
+  margin-left: 40px;
+  height: 30px;
+  width: 1030px;
+  background-color: #CCFEC2;
+}
+.p2{
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 80px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Montserrat';
+}
+h2{
+  text-align: justify;
+  margin-left: 80px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-family: 'dubai';
+  font-weight: bold;
+  color: #00B106;
+  }
+  .signup-button{
+    background-color: #00B106;
+    width: 80%;
+    font-size: 17px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+.button-1:hover{
+    background-color: #00CC07;
+    color: white;
+  }
+  .fb-button{
+    background-color: #305EAC;
+    width: 80%;
+    font-size: 17px;
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  .fb-button:hover{
+    background-color: #2146C7;
+    color: white;
+  }
+  .google-button{
+    background-color: #DD4B39;
+    width: 80%;
+    font-size: 17px;
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  .google-button:hover{
+    background-color: #EB1D36;
+    color: white;
+  }
+.fa-brands{
+  margin-right: 5px;
+}
+.p-login{
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 5px;
+  font-size: 15px;
+  font-family: 'Montserrat';
+}
+.fa-solid{
+margin-top: 30px;
+padding-right: 1200px;
+font-size: 20px;
+color: black;
+}
+
+
+
+#footerlogin{
+  padding-top: 40%;
+  background-color:  #F9F9F9;
+}
+.footer-row{
+  position: absolute;
+  margin: 100px 400px 100px 450px;
+}
+.footer-logo{
+  opacity: 50%;
+  margin: 0;
+  height: 100px;
+}
+.footer-col{
+  margin: 0;
+}
+.footer-bg{
+  height: 300px;
+  width: 1429px;
+}
+.footer-details{
+  font-weight: bold;
+  opacity: 50%;
+  padding-left: 13px;
+  color: #00B106;
+}
+.footer-details-about{
+  text-transform: uppercase;
+  font-family: "dubai";
+  font-weight: bold;
+  font-size: 1rem;
+  color: #989898;
+  margin: 20px 0 0 0;
+}
+.footer-details-about2{
+  color: #989898;
+  font-size: 0.7rem;
+  text-align: left;
+  margin:0;
+}
+.follow-us{
+  color: #989898;
+  font-size: 20px;
+}
+.follow-icons{
+  margin: 10px 20px 0 0;
+}
+.fa-instagram{
+  margin: 5px 0 0 0;
+}
+
+.footer-copyright{
+  padding: auto;
+  width: 1390px;
+  border: 1px solid;
+  border-color: #989898;
+}
+.hr-footer{
+  margin: 260px 0;
+  margin-left: 5px;
+  padding: 0;
+  position: absolute;
+}
