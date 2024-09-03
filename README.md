@@ -9,8 +9,8 @@ The purpose of this website is to provide a convenient and efficient platform fo
 
 ## Key Features: 
 - ### User Authentication: Secure login and registration system to ensure the authenticity of users. 
-- Product Listings: Users can list their agricultural products with details such as product type, quantity, and price. 
-- Search and Filter: Users can easily search for specific products and filter listings based on various criteria. 
-- Messaging System: Integrated messaging feature to facilitate communication between buyers and sellers. 
-- Order Management: Efficient order tracking and management system for both buyers and sellers. 
-- Feedback and Rating: Users can provide feedback and ratings based on their experience, promoting transparency and trust within the community.
+- ### Product Listings: Users can list their agricultural products with details such as product type, quantity, and price. 
+- ### Search and Filter: Users can easily search for specific products and filter listings based on various criteria. 
+- ### Messaging System: Integrated messaging feature to facilitate communication between buyers and sellers. 
+- ### Order Management: Efficient order tracking and management system for both buyers and sellers. 
+- ### Feedback and Rating: Users can provide feedback and ratings based on their experience, promoting transparency and trust within the community.
